@@ -1,0 +1,4 @@
+1. Adjust Pacman's Cornering
+2. Make Turn State proper by checking for proper tile collision
+3. Correct Pacman Dot Speed change
+4. Ghost Leaving Time

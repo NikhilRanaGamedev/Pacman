@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2654162399669479340
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2654162399669479343}
+  - component: {fileID: 2654162399669479342}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2654162399669479343
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2654162399669479340}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2654162399669479342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2654162399669479340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9fbf0f266093b649a45d3da174f8cf2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: starting
+    clip: {fileID: 8300000, guid: 337f91fbf17ba964b9a00fab7ff00be1, type: 3}
+    loop: 0
+    source: {fileID: 0}
+  - name: siren
+    clip: {fileID: 8300000, guid: 826c01d25cdc9554f8ddec312943a40f, type: 3}
+    loop: 1
+    source: {fileID: 0}
+  - name: eatFood
+    clip: {fileID: 8300000, guid: 3681e2daf701285429001f5fd76b6006, type: 3}
+    loop: 0
+    source: {fileID: 0}
+  - name: eatGhost
+    clip: {fileID: 8300000, guid: 73c0daadb0096564e87daf4dd9af4e0c, type: 3}
+    loop: 0
+    source: {fileID: 0}
+  - name: eatPowerPellet
+    clip: {fileID: 8300000, guid: 360865f079c39e8499eda759a51dc8e8, type: 3}
+    loop: 0
+    source: {fileID: 0}
+  - name: retreating
+    clip: {fileID: 8300000, guid: ca12289eb18d459499de6a5d6e16b1c3, type: 3}
+    loop: 0
+    source: {fileID: 0}
+  - name: die
+    clip: {fileID: 8300000, guid: 7a030b1c4082e5649871a6d5395cab50, type: 3}
+    loop: 0
+    source: {fileID: 0}
+  - name: eatFruit
+    clip: {fileID: 8300000, guid: 78bf12ccadb4a474092fade484e0e475, type: 3}
+    loop: 0
+    source: {fileID: 0}
